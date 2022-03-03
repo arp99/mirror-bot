@@ -1,9 +1,7 @@
-<Center>
+<p align="center">
 <img src="./src/assets/mirror.png">
-</Center>
-<Center>
-<h1>Mirror Bot</h1>
-</Center>
+</p>
+<h1 align="center">Mirror Bot</h1>
 
 <hr>
 
