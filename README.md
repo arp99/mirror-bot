@@ -5,7 +5,7 @@
 
 <hr>
 
-Mirror Bot is a bot which echoes the same message which is sent by the user. All Chat history is saved in localstorage. So need of worrying if you accidently closed the browser tab.
+Mirror Bot is a bot which echoes the same message which is sent by the user. All Chat history is saved in localstorage. So no need of worrying if you accidently closed the browser tab.
 
 ## Libraries used:
 - Reactjs
