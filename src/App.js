@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className="h-[90%] w-[70%] mx-auto border-2 border-solid border-blue-500">
-        <div className="h-[90%] overflow-y-scroll">
+      <div className="h-[90%] sm:w-full md:w-[70%] mx-auto border-2 border-solid border-blue-500">
+        <div className="h-[90%]  px-2 overflow-y-scroll">
           {chats.length === 0 ? (
             <p>No chat History</p>
           ) : (
