@@ -2,7 +2,7 @@ const Chatbubble = ({ sentBy, children }) => {
   return (
     <div className="w-full">
       <div
-        className={`w-48 min-h-[2rem] p-1 rounded-sm border-2 border-solid ${
+        className={`w-48 min-h-[2rem] p-1 my-2 rounded-sm border-2 border-solid ${
           sentBy === "user"
             ? "bg-blue-300 border-blue-800 ml-auto"
             : "border-blue-700 mr-auto"
@@ -15,7 +15,13 @@ const Chatbubble = ({ sentBy, children }) => {
         >
           {sentBy === "user" ? "User" : "Mirror Bot"}
         </p>
-        <p className={`font-medium ${ sentBy === "user" ? "text-blue-700" : "text-blue-700"}`}>{children}</p>
+        <p
+          className={`font-medium ${
+            sentBy === "user" ? "text-blue-700" : "text-blue-700"
+          }`}
+        >
+          {children}
+        </p>
       </div>
     </div>
   );
